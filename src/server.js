@@ -9,7 +9,7 @@ const { notFound, badRequest, generalError } = require("./errorHandlers");
 const { verifyToken } = require("./routes/authorization/util");
 const helmet = require("helmet");
 
-const port = process.env.PORT || 3005;
+const port = process.env.PORT || 3008;
 const publicPath = join(__dirname, "../public");
 
 const server = express();
